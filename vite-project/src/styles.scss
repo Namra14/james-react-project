@@ -1,5 +1,6 @@
 $primary-color: #3498db;
 $color: black;
+$font-size: 50px;
 
 body {
     font-family: Arial, sans-serif;
@@ -8,4 +9,5 @@ body {
 }
 p{
     color: $color;
+    font-size: $font-size;
 }
