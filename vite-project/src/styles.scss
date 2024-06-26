@@ -1,0 +1,11 @@
+$primary-color: #3498db;
+$color: black;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $primary-color;
+    color: white;
+}
+p{
+    color: $color;
+}
