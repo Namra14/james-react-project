@@ -1,11 +1,69 @@
-$primary-color: #3498db;
-$color: black;
+$primary-color: #23252C;
+$color: white;
 $font-size: 50px;
+$descolor: #F3BF99;
+$blue: #5093E2;
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: $primary-color;
     color: white;
+}
+.card{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    background-color: #1A1B21;
+    margin-bottom: 100px;
+
+
+    .picture{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .name{
+        font-size: 25px;
+        color: $color;
+    }
+    .des{
+        color: $descolor;
+        font-size: 15px;
+    }
+    .link{
+        margin: 50px 0;
+    }
+    .button{
+        margin-top: 20px;
+
+        a{
+        padding: 50px 10px 50px 10px;
+        border: none;
+
+        .btn2{
+            background-color: $blue;
+            color: white;
+        }
+        }
+        
+    }
+    .about{
+        text-align: left;
+        padding: 10px 40px;
+    }
+    .des1{
+        color: white;
+        font-size: 15px;
+    }
+    .int{
+        text-align: left;
+        padding: 10px 40px;
+    }
+    .des2{
+        color: white;
+        font-size: 15px;
+    }
 }
 p{
     color: $color;
