@@ -11,11 +11,11 @@ function App() {
           <img src={myProfile} className="picture" alt="Vite logo" />
       <h1 className='name'>James Angeles</h1>
       <p className='des'>Front-End Developer</p>
-      <a href="https://namra14.github.io/JamesRolandAngeles-Portfolio/" className='link' target='_blank'>MyProfolio</a>
+      <a href="https://namra14.github.io/JamesRolandAngeles-Portfolio/" className='link' target='_blank' rel='noopener noreferrer'>MyProfolio</a>
         <div className='button'> 
           <a href="">
             
-            <button> <i class="bi bi-envelope-at-fill"></i>Email </button>
+            <button> Email </button>
           </a>
           <a href="">
             <button className='btn2'><i class="bi bi-linkedin"></i>LinkedIn</button>
