@@ -1,6 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+body{
+  font-family: "Inter", sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background-color: #F55A5A;
+  margin-bottom: 50px;
+}
+.navbar h5{
+  color: white;
+}
+.journal{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: rows;
+  justify-content: center;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+.journal img{
+  width: 125px;
+  height: 168px;
+  background-color: aqua;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.location{
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.loc a{
+  font-size: 11px;
+  color: #918E9B;
+}
+.descrip {
+  display: flex;
+  flex-direction: column;
+}
+.descrip h1{
+  margin-top: -8px;
+  font-size: 25px;
+}
+.date{
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 11px;
+}
+.text{
+  text-align: justify;
+  margin-top: -7px;
+  font-size: 11px;
+}
+
